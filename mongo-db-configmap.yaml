@@ -1,0 +1,10 @@
+# this file going to have a all  of the configs like the url
+# and port etc and password in the serects service
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  # name of the configmap
+  name: mongo-config
+data:
+  #mongodb service url
+  mongo-url: mongo-service
